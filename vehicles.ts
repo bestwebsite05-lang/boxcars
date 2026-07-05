@@ -1,0 +1,160 @@
+import { Vehicle } from '@/types/vehicle'
+
+export const vehicles: Vehicle[] = [
+  {
+    id: '1',
+    title: 'Ford Transit - 2021',
+    make: 'Ford',
+    model: 'Transit',
+    year: 2021,
+    price: 22000,
+    mileage: 20000,
+    fuelType: 'Diesel',
+    condition: 'Used',
+    category: 'SUV',
+    images: ['/cars/Ford Transit-2021.jpg'],
+    description: '4.0 S5 Premix, also Nahmerturn 567 4MC.',
+    featured: true
+  },
+  {
+    id: '2',
+    title: 'New GLC - 2023',
+    make: 'Mercedes Benz',
+    model: 'GLC',
+    year: 2023,
+    price: 95000,
+    mileage: 50,
+    fuelType: 'Diesel',
+    condition: 'New',
+    category: 'SUV',
+    images: ['/cars/New GLC - 2023.jpg'],
+    description: '4.0 S5 Premix, also Nahmerturn 567 4MC.',
+    featured: true
+  },
+  {
+    id: '3',
+    title: 'Audi A6 3.5 - New',
+    make: 'Audi',
+    model: 'A6',
+    year: 2023,
+    price: 58000,
+    mileage: 103,
+    fuelType: 'Diesel',
+    condition: 'New',
+    category: 'Sedan',
+    images: ['/cars/Audi A6 3.5 - New.jpg'],
+    description: '3.5 G5 Premix, also Nahmerturn 567 4MC.',
+    featured: true
+  },
+  {
+    id: '4',
+    title: 'Corolla Altis - 2023',
+    make: 'Toyota',
+    model: 'Corolla Altis',
+    year: 2023,
+    price: 45000,
+    mileage: 80000,
+    fuelType: 'Diesel',
+    condition: 'Used',
+    category: 'Sedan',
+    images: ['/cars/Corolla Altis - 2023.jpg'],
+    description: '3.5 G5 Premix, also Nahmerturn 567 4MC.',
+    featured: true
+  },
+  // Add more vehicles...
+  {
+    id: '5',
+    title: 'BMW X5 - 2024',
+    make: 'BMW',
+    model: 'X5',
+    year: 2024,
+    price: 82000,
+    mileage: 100,
+    fuelType: 'Hybrid',
+    condition: 'New',
+    category: 'SUV',
+    images: ['/cars/BMW X5 - 2024.jpg'],
+    description: 'Luxury SUV with hybrid performance.',
+  },
+  {
+    id: '6',
+    title: 'VW Golf - 2022',
+    make: 'Volkswagen',
+    model: 'Golf',
+    year: 2022,
+    price: 28000,
+    mileage: 15000,
+    fuelType: 'Petrol',
+    condition: 'Used',
+    category: 'Hatchback',
+    images: ['/cars/VW Golf - 2022.jpg'],
+    description: 'Reliable hatchback, great condition.',
+  },
+  {
+  id: '7',
+  title: 'Tesla Model 3 - 2024',
+  make: 'Tesla',
+  model: 'Model 3',
+  year: 2024,
+  price: 45000,
+  mileage: 0,
+  fuelType: 'Electric',
+  condition: 'New',
+  category: 'Sedan',
+  images: ['/cars/Tesla Model 3 - 2024.jpg'],
+  description: 'Electric sedan with autopilot, 358 mile range.',
+  featured: true
+},
+{
+  id: '8',
+  title: 'Porsche 911 - 2022',
+  make: 'Porsche',
+  model: '911',
+  year: 2022,
+  price: 120000,
+  mileage: 8000,
+  fuelType: 'Petrol',
+  condition: 'Used',
+  category: 'Coupe',
+  images: ['/cars/Porsche 911 - 2022.jpg'],
+  description: 'Iconic sports car with 379 hp, 0-60 in 4.2s.',
+},
+{
+  id: '9',
+  title: 'Land Rover Defender - 2023',
+  make: 'Land Rover',
+  model: 'Defender',
+  year: 2023,
+  price: 82000,
+  mileage: 1200,
+  fuelType: 'Diesel',
+  condition: 'Used',
+  category: 'SUV',
+  images: ['/cars/Land Rover Defender - 2023.jpg'],
+  description: 'Off-road luxury SUV with 3.0L diesel engine.',
+},
+{
+  id: '10',
+  title: 'Honda Civic - 2024',
+  make: 'Honda',
+  model: 'Civic',
+  year: 2024,
+  price: 28000,
+  mileage: 100,
+  fuelType: 'Hybrid',
+  condition: 'New',
+  category: 'Hatchback',
+  images: ['/cars/Honda Civic - 2024.jpg'],
+  description: 'Sporty hybrid hatchback with 50 MPG combined.',
+}
+]
+
+export const brands = ['Audi', 'BMW', 'Ford', 'Mercedes Benz', 'Peugeot', 'Volkswagen']
+
+export const categories = ['SUV', 'Sedan', 'Hatchback', 'Coupe', 'Hybrid']
+
+export const fuelTypes = ['Petrol', 'Diesel', 'Electric', 'Hybrid']
+
+export const makes = ['Audi', 'BMW', 'Ford', 'Mercedes Benz', 'Peugeot', 'Toyota', 'Volkswagen']
+
+export const models = ['A6', 'X5', 'Transit', 'GLC', 'Golf', 'Corolla Altis']
